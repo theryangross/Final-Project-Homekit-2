@@ -13,8 +13,6 @@ namespace Final_Project_Homekit_2.Models
         [Display(Name="Brand")]
         public string BrandName { get; set; }
         
-        public int ProductID { get; set; }  // FK
-        
         public List<Product> Products { get; set; }   // Nav. Each Brand can have one or many Products
     }
 }
