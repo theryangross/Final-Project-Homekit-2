@@ -11,12 +11,14 @@ namespace Final_Project_Homekit_2.Models
 
         
         [Required]
+        [Display(Name="Product")]
         public string ProductName { get; set; }
 
 
         [Range(1, 5000)]
         [DataType(DataType.Currency)]
         [Column(TypeName = "decimal(18, 2)")]
+        [Display(Name="Price")]
         public decimal ProductPrice { get; set; }
         
         public int CategoryID { get; set; }   // FK
