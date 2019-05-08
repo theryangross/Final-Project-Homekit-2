@@ -24,7 +24,7 @@ namespace Final_Project_Homekit_2.Models
 
         public Category Category { get; set; }  // Nav. Each Product has one Category
 
-        public int BrandID { get; set; }
+        public int BrandID { get; set; }    // FK
 
         public Brand Brand { get; set; }   // Nav. Each Product has one Brand
     }
